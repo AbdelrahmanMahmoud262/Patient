@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.androdevelopment.patient.views.fragments.Home"
+        android:label="fragment_home"
+
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_navigation_fragment_to_results_navigation_fragment"
+            app:destination="@id/results"
+            app:popUpTo="@+id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_home_navigation_fragment_to_profile_navigation_fragment"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_home_to_logout"
+            app:destination="@id/logout" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/results"
+        android:name="com.androdevelopment.patient.views.fragments.Results"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_results">
+        <action
+            android:id="@+id/action_results_navigation_fragment_to_profile_navigation_fragment"
+            app:destination="@id/profile" />
+
+        <action
+            android:id="@+id/action_results_to_logout"
+            app:destination="@id/logout" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.androdevelopment.patient.views.fragments.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_navigation_fragment_to_home_navigation_fragment"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_profile_navigation_fragment_to_results_navigation_fragment"
+            app:destination="@id/results" />
+        <action
+            android:id="@+id/action_profile_to_logout"
+            app:destination="@id/logout" />
+    </fragment>
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.androdevelopment.patient.views.fragments.Logout"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout">
+        <action
+            android:id="@+id/action_logout_to_home2"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_logout_to_results2"
+            app:destination="@id/results" />
+        <action
+            android:id="@+id/action_logout_to_profile2"
+            app:destination="@id/profile" />
+    </fragment>
+
+</navigation>

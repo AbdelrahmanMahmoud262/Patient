@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patient</string>
+    <string name="home">Acceuil</string>
+    <string name="results">Résultats</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Déconnexion</string>
+    <string name="qr_code">QR Code</string>
+    <string name="my_latest_results">Mes derniers résultats</string>
+    <string name="welcome">Bienvenue,</string>
+    <string name="notification">Notification</string>
+    <string name="logo">Logo</string>
+    <string name="calender">Calendrier</string>
+    <string name="no_results_available_please_check_back_later">Aucun résultat disponible,\nveuillez revenir plus tard.</string>
+    <string name="your_next_results_will_be_displayed_here_when_they_become_available">Vos prochains résultats seront affichés\nici lorsqu\'ils seront disponibles.</string>
+    <string name="_new">Nouveau</string>
+    <string name="view_all">Voir tout</string>
+    <string name="filter">Filtre</string>
+    <string name="correct">Correct</string>
+    <string name="you_are_offline_please_check_your_network_setting">Vous êtes hors ligne. Veuillez vérifier vos paramètres réseau.</string>
+    <string name="attention">Attention</string>
+    <string name="edited">Édité</string>
+    <string name="resizable_text_read_more">en savoir plus</string>
+    <string name="resizable_text_read_less">lire moins</string>
+    <string name="back">Dos</string>
+    <string name="edit">Modifier</string>
+    <string name="technician_comment">Commentaire du technicien</string>
+    <string name="pages">pages</string>
+    <string name="read_document">Lire le document</string>
+    <string name="no_comments_from_technician">Aucun commentaire du technicien</string>
+</resources>

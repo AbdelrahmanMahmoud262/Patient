@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Patient</string>
+    <string name="home">Home</string>
+    <string name="results">Results</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="qr_code">QR Code</string>
+    <string name="welcome">Welcome,</string>
+    <string name="notification">Notification</string>
+    <string name="logo">Logo</string>
+    <string name="my_latest_results">My latest results</string>
+    <string name="calender">Calender</string>
+    <string name="no_results_available_please_check_back_later">No results available,\nplease check back later.</string>
+    <string name="your_next_results_will_be_displayed_here_when_they_become_available">Your next results will be displayed\nhere when they become available.</string>
+    <string name="_new">New</string>
+    <string name="view_all">View all</string>
+    <string name="filter">Filter</string>
+    <string name="correct">Correct</string>
+    <string name="you_are_offline_please_check_your_network_setting">You are offline. Please, check your network setting.</string>
+    <string name="attention">Attention</string>
+    <string name="edited">Edited</string>
+    <string name="resizable_text_read_more">read more</string>
+    <string name="resizable_text_read_less">read less</string>
+
+    <string name="blabla" translatable="false">tools:text="How fine. You blow like a doubloons.Well, avast.The yardarm sings beauty like a golden breeze.Everyone just loves the tartness of chicken punch soakd with brown sugar.Scrape pumpkin seeds fully, then mix with ricotta and serve carefully in sauté pan.Shark of a rainy malaria, sail the death!What’s the secret to springy and sticky tofu? Always use delicious flower.Not holy places or heavens, capture the manifestation.Damn yer furner, feed the sail.Mineral at the port that is when delighted admirals walk.Hornpipe of a undead adventure, haul the madness!Confucius says: never facilitate for others what you would not desire for the thought of it.Regius hilotaes ducunt ad deus.Brevis rumor aegre promissios fiscina est.The cosmonaut dies tragedy like a galactic space suit." />
+</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="technician_comment">Technician comment</string>
+    <string name="pdf" translatable="false">Pdf</string>
+    <string name="pages">pages</string>
+    <string name="read_document">Read document</string>
+    <string name="no_comments_from_technician">No comments from Technician</string>
+    <string name="title_pdfrendering">PDFRendering</string>
+</resources>
