@@ -42,11 +42,11 @@ class Result : AppCompatActivity() {
 
         resultId = intent.getIntExtra(Constants.RESULT_ID, -1)
 
-        requestPermission()
-        setListeners()
-        collectUiEvents()
-        initResult()
-        loadPdf()
+//        requestPermission()
+//        setListeners()
+//        collectUiEvents()
+//        initResult()
+//        loadPdf()
     }
 
     private val requestPermissionLauncher =
@@ -60,7 +60,7 @@ class Result : AppCompatActivity() {
             }
         }
 
-    fun requestPermission() {
+    private fun requestPermission() {
         when {
             ContextCompat.checkSelfPermission(
                 this,

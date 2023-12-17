@@ -16,6 +16,9 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
+import java.text.SimpleDateFormat
+import java.util.UUID
+import java.util.logging.Handler
 import javax.inject.Inject
 
 @HiltViewModel
@@ -36,8 +39,7 @@ class HomeViewModel @Inject constructor(private val repository: MainRepository) 
     init {
         viewModelScope.launch {
             isLoading()
-//            val dao = ResultsDatabase.getDatabase(context).getDao()
-//            repository = MainRepositoryImpl(dao)
+
             repository.getFirstFourOrderedByDate().collect{
                 Log.e("data",it.toString())
             }
@@ -66,7 +68,7 @@ class HomeViewModel @Inject constructor(private val repository: MainRepository) 
                         0,"qrcode",
                         293814,
                         "News Lab",
-                        "15-5-1005",
+                        System.currentTimeMillis().toString(),
                         false,
                         false,
                         "Description",
